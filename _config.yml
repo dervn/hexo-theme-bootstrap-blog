@@ -3,24 +3,30 @@ navbar_brand: false
 menu:
   Home: index.html
   Archives: archives/
+  Wiki: https://dervn.github.io/wiki/
+  About: about/
 rss: /atom.xml
 
 # Content
 excerpt_link: Read More
-fancybox: false
+fancybox: true
 
 # Sidebar
 widgets:
 - about         # See also: `about_content`
 - category
-- tag
+#- tag
 - tagcloud
 - archive
-- recent_posts
+#- recent_posts
 about_widget_content: >
-  <p>Etiam porta <em>sem malesuada magna</em> mollis euismod.
-  Cras mattis consectetur purus sit amet fermentum. Aenean
-  lacinia bibendum nulla sed consectetur.</p>
+  <p>日常备忘录.</p>
+  <hr/>
+  <p>
+  <a href="https://dervn.github.io/wiki/千字文/qianziwen.html">千字文及其注解</a>
+  <br/><br/>
+  <a href="/2017/09/05/minzu/">[zt]千秋万代之民族、宗教和文化政策</a><i>有些偏激不喜勿阅</i>
+  </p>
 
 # widget behavior
 archive_type: 'monthly'
